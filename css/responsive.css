@@ -1,0 +1,240 @@
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .birla .navbar .enquire {
+    padding: 8px 20px;
+  }
+  .birla .banner .banner_text .head {
+    padding: 87px 36px;
+  }
+  .birla .banner .banner_text .head h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .birla .banner .banner_text .head h3 {
+    font-size: 21px;
+    letter-spacing: 0;
+  }
+  .birla .banner #custCarousel .carousel-indicators {
+    margin-right: 123px;
+  }
+  .birla .banner #custCarousel .carousel-indicators li img {
+    width: 150px;
+    height: 100px;
+  }
+  .birla .about_us {
+    padding: 200px 0 130px;
+  }
+  .birla .about_us .left h2 {
+    font-size: 30px;
+    line-height: 33px;
+    padding-bottom: 10px;
+    letter-spacing: 0;
+  }
+  .birla .about_us .left p {
+    font-size: 16px;
+    line-height: 29px;
+  }
+  .birla .about_us .right img {
+    width: 100%;
+  }
+  .birla .about_us .right .icon {
+    bottom: 4px;
+  }
+  .birla .why_choose h2 {
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0;
+  }
+  .birla .why_choose .img_list .right_list {
+    padding: 30px 30px;
+  }
+  .birla .why_choose .img_list .right_list ul li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .birla .why_choose .img_list .right_list ul .hr_line {
+    margin: 10px 0;
+  }
+  .birla .why_choose .img_list .left_img img {
+    height: 133vh;
+  }
+  .birla .education {
+    padding: 100px 0;
+  }
+  .birla .education .programs h2 {
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0;
+  }
+  .birla .education .image .card .bg-color h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .birla .footer {
+    padding: 60px 30px 60px;
+  }
+  .birla .footer_section .footer_para {
+    font-size: 14px;
+    padding-top: 50px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .birla .navbar .enquire {
+    padding: 8px 20px;
+  }
+  .birla .banner .banner_text .head {
+    padding: 31px 36px;
+  }
+  .birla .banner .banner_text .head h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .birla .banner .banner_text .head h3 {
+    font-size: 21px;
+    letter-spacing: 0;
+  }
+  .birla .banner #custCarousel .carousel-indicators {
+    margin-right: 64px;
+  }
+  .birla .banner #custCarousel .carousel-indicators li img {
+    width: 120px;
+    height: 70px;
+  }
+  .birla .about_us {
+    padding: 200px 0 130px;
+  }
+  .birla .about_us .left h2 {
+    font-size: 30px;
+    line-height: 33px;
+    padding-bottom: 10px;
+    letter-spacing: 0;
+  }
+  .birla .about_us .left p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .birla .about_us .right img {
+    width: 100%;
+  }
+  .birla .about_us .right .icon {
+    bottom: 148px;
+  }
+  .birla .why_choose h2 {
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0;
+  }
+  .birla .why_choose .img_list .right_list {
+    padding: 30px 30px;
+  }
+  .birla .why_choose .img_list .right_list ul li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .birla .why_choose .img_list .right_list ul .hr_line {
+    margin: 10px 0;
+  }
+  .birla .why_choose .img_list .left_img img {
+    height: 133vh;
+  }
+  .birla .education {
+    padding: 100px 0;
+  }
+  .birla .education .programs h2 {
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0;
+  }
+  .birla .education .image .card .bg-color h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .birla .footer {
+    padding: 60px 30px 60px;
+  }
+  .birla .footer_section .footer_para {
+    font-size: 14px;
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .birla .banner .banner_text .head {
+    padding: 50px 13px;
+  }
+  .birla .banner .banner_text .head h1 {
+    font-size: 35px;
+    line-height: 55px;
+  }
+  .birla .banner .banner_text .head h3 {
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+  .birla .banner #custCarousel .carousel-indicators {
+    margin-right: 0;
+  }
+  .birla .banner #custCarousel .carousel-indicators li img {
+    width: 100px;
+    height: 70px;
+  }
+  .birla .about_us {
+    padding: 180px 0 90px;
+  }
+  .birla .about_us .left h2 {
+    font-size: 27px;
+    line-height: 40px;
+  }
+  .birla .about_us .right img {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .birla .about_us .right .icon {
+    bottom: 0;
+  }
+  .birla .why_choose h2 {
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 0;
+  }
+  .birla .why_choose .img_list .right_list {
+    padding: 30px 15px;
+  }
+  .birla .why_choose .img_list .right_list ul li {
+    font-size: 16px;
+  }
+  .birla .education {
+    padding: 100px 0;
+  }
+  .birla .education .programs {
+    display: block;
+  }
+  .birla .education .programs h2 {
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 0;
+  }
+  .birla .education .image .card {
+    margin-top: 30px;
+  }
+  .birla .education .image .card img {
+    height: 80vh;
+  }
+  .birla .education .image .card .bg-color h2 {
+    font-size: 19px;
+  }
+  .birla .footer {
+    margin-top: 70px;
+    padding: 70px 15px 60px;
+  }
+  .birla .footer_section .footer_para {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

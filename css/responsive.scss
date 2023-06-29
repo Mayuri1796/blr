@@ -1,0 +1,602 @@
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .birla {
+    .navbar {
+      .enquire {
+        padding: 8px 20px;
+      }
+    }
+    .banner {
+      .banner_text {
+        .head {
+          padding: 87px 36px;
+          h1 {
+            font-size: 30px;
+            line-height: 40px;
+          }
+          h3 {
+            font-size: 21px;
+            letter-spacing: 0;
+          }
+        }
+      }
+      #custCarousel {
+        .carousel-indicators {
+          margin-right: 123px;
+          li {
+            img {
+              width: 150px;
+              height: 100px;
+            }
+          }
+        }
+      }
+    }
+    .about_us {
+      padding: 200px 0 130px;
+      .left {
+        h2 {
+          font-size: 30px;
+          line-height: 33px;
+          padding-bottom: 10px;
+          letter-spacing: 0;
+        }
+        p {
+          font-size: 16px;
+          line-height: 29px;
+        }
+      }
+      .right {
+        img {
+          width: 100%;
+        }
+        .icon {
+          bottom: 4px;
+        }
+      }
+    }
+    .why_choose {
+      h2 {
+        font-size: 30px;
+        line-height: 33px;
+        letter-spacing: 0;
+      }
+      .img_list {
+        .right_list {
+          padding: 30px 30px;
+          ul {
+            li {
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 17px;
+            }
+            .hr_line {
+              margin: 10px 0;
+            }
+          }
+        }
+        .left_img {
+          img {
+            height: 133vh;
+          }
+        }
+      }
+    }
+    .education {
+      padding: 100px 0;
+      .programs h2 {
+        font-size: 30px;
+        line-height: 33px;
+        letter-spacing: 0;
+      }
+      .image {
+        .card {
+          .bg-color {
+            h2 {
+              font-size: 18px;
+              line-height: 30px;
+            }
+          }
+        }
+      }
+    }
+    .footer {
+      padding: 60px 30px 60px;
+    }
+    .footer_section {
+      .footer_para {
+        font-size: 14px;
+        padding-top: 50px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .birla {
+    .navbar {
+      .enquire {
+        padding: 8px 20px;
+      }
+    }
+    .banner {
+      .banner_text {
+        .head {
+          padding: 31px 36px;
+          h1 {
+            font-size: 30px;
+            line-height: 40px;
+          }
+          h3 {
+            font-size: 21px;
+            letter-spacing: 0;
+          }
+        }
+      }
+      #custCarousel {
+        .carousel-indicators {
+          margin-right: 64px;
+          li {
+            img {
+              width: 120px;
+              height: 70px;
+            }
+          }
+        }
+      }
+    }
+    .about_us {
+      padding: 200px 0 130px;
+      .left {
+        h2 {
+          font-size: 30px;
+          line-height: 33px;
+          padding-bottom: 10px;
+          letter-spacing: 0;
+        }
+        p {
+          font-size: 14px;
+          line-height: 28px;
+        }
+      }
+      .right {
+        img {
+          width: 100%;
+        }
+        .icon {
+          bottom: 148px;
+        }
+      }
+    }
+    .why_choose {
+      h2 {
+        font-size: 30px;
+        line-height: 33px;
+        letter-spacing: 0;
+      }
+      .img_list {
+        .right_list {
+          padding: 30px 30px;
+          ul {
+            li {
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 17px;
+            }
+            .hr_line {
+              margin: 10px 0;
+            }
+          }
+        }
+        .left_img {
+          img {
+            height: 133vh;
+          }
+        }
+      }
+    }
+    .education {
+      padding: 100px 0;
+      .programs h2 {
+        font-size: 30px;
+        line-height: 33px;
+        letter-spacing: 0;
+      }
+      .image {
+        .card {
+          .bg-color {
+            h2 {
+              font-size: 18px;
+              line-height: 30px;
+            }
+          }
+        }
+      }
+    }
+    .footer {
+      padding: 60px 30px 60px;
+    }
+    .footer_section {
+      .footer_para {
+        font-size: 14px;
+        padding-top: 50px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .birla {
+    .banner {
+      .banner_text {
+        .head {
+          padding: 50px 13px;
+          h1 {
+            font-size: 35px;
+            line-height: 55px;
+          }
+          h3 {
+            font-size: 24px;
+            letter-spacing: 0;
+          }
+        }
+      }
+      #custCarousel {
+        .carousel-indicators {
+          margin-right: 0;
+          li {
+            img {
+              width: 100px;
+              height: 70px;
+            }
+          }
+        }
+      }
+    }
+    .about_us {
+      padding: 180px 0 90px;
+      .left {
+        h2 {
+          font-size: 27px;
+          line-height: 40px;
+        }
+      }
+      .right {
+        img {
+          margin-top: 50px;
+          width: 100%;
+        }
+        .icon {
+          bottom: 0;
+        }
+      }
+    }
+    .why_choose {
+      h2 {
+        font-size: 27px;
+        line-height: 40px;
+        letter-spacing: 0;
+      }
+      .img_list {
+        .right_list {
+          padding: 30px 15px;
+          ul {
+            li {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+    .education {
+      padding: 100px 0;
+      .programs {
+        display: block;
+        h2 {
+          font-size: 27px;
+          line-height: 40px;
+          letter-spacing: 0;
+        }
+      }
+      .image {
+        .card {
+          margin-top: 30px;
+          img {
+            height: 80vh;
+          }
+          .bg-color {
+            h2 {
+              font-size: 19px;
+            }
+          }
+        }
+      }
+    }
+    .footer {
+      margin-top: 70px;
+      padding: 70px 15px 60px;
+    }
+    .footer_section {
+      .footer_para {
+        padding-top: 50px;
+      }
+    }
+  }
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+// @media screen and (min-width: 1440px) {
+//   .birla {
+//     .banner {
+//       #custCarousel {
+//         .carousel-indicators {
+//           margin-right: 37%;
+//         }
+//       }
+//     }
+//     .about_us {
+//       .right {
+//         .icon {
+//           bottom: 4px;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 1024px) and (max-width: 1440px) {
+//   .birla {
+//     .navbar {
+//       .enquire {
+//         padding: 8px 20px;
+//       }
+//     }
+//     .banner {
+//       .banner_text {
+//         .head {
+//           padding: 50px 30px;
+//           h1 {
+//             font-size: 48px;
+//             line-height: 60px;
+//           }
+//           h3 {
+//             font-size: 36px;
+//             padding-top: 26px;
+//           }
+//         }
+//       }
+//       #custCarousel {
+//         .carousel-indicators {
+//           margin-right: 46%;
+//           & > li {
+//             width: 145px;
+//           }
+//           li {
+//             img {
+//               width: 100px;
+//               height: 70px;
+//             }
+//           }
+//         }
+//       }
+//     }
+//     .about_us {
+//       padding: 160px 0;
+//       .right {
+//         img {
+//           width: 100%;
+//         }
+//         .icon {
+//           bottom: 0;
+//         }
+//       }
+//       .left {
+//         h2 {
+//           letter-spacing: 0px;
+//           font-size: 37px;
+//           line-height: 38px;
+//           padding-bottom: 10px;
+//         }
+//         p {
+//           font-size: 14px;
+//           line-height: 25px;
+//         }
+//       }
+//     }
+//     .why_choose {
+//       h2 {
+//         font-size: 37px;
+//         line-height: 38px;
+//         letter-spacing: 0px;
+//       }
+//       .img_list {
+//         .left_img {
+//           img {
+//             height: 145vh;
+//           }
+//         }
+//         .right_list {
+//           padding: 38px 20px;
+//           ul {
+//             li {
+//               font-size: 14px;
+//               line-height: 14px;
+//               letter-spacing: 0;
+//               font-weight: 500;
+//             }
+//             .hr_line {
+//               margin-bottom: 7px;
+//             }
+//           }
+//         }
+//       }
+//     }
+//     .education {
+//       padding: 90px 0;
+//       .programs {
+//         h2 {
+//           font-size: 37px;
+//           line-height: 38px;
+//           letter-spacing: 0px;
+//         }
+//       }
+//       .image {
+//         .card {
+//           .bg-color {
+//             h2 {
+//               font-size: 25px;
+//               line-height: 25px;
+//             }
+//           }
+//         }
+//       }
+//     }
+//     .footer {
+//       padding: 120px 40px 40px;
+//     }
+//     .footer_section {
+//       .footer_para {
+//         padding-top: 50px;
+//         font-size: 12px;
+//       }
+//       p {
+//         font-size: 12px;
+//         line-height: 35px;
+//         font-weight: 600;
+//       }
+//       ul {
+//         li {
+//           font-size: 12px;
+//         }
+//       }
+//     }
+//   }
+// }
+// @media screen and (max-width: 768px) {
+//   .birla {
+//     .banner {
+//       .banner_text {
+//         .head {
+//           h1 {
+//             font-size: 30px;
+//             line-height: 45px;
+//           }
+//           h3 {
+//             font-size: 25px;
+//             padding-top: 14px;
+//           }
+//         }
+//       }
+//       #custCarousel {
+//         .carousel-indicators {
+//           margin-right: 28%;
+//         }
+//       }
+//     }
+//     .about_us {
+//       .left {
+//         h2 {
+//           font-size: 26px;
+//           line-height: 30px;
+//           padding-bottom: 7px;
+//         }
+//       }
+//       .right {
+//         .icon {
+//           bottom: 88px;
+//         }
+//       }
+//     }
+//     .why_choose {
+//       h2 {
+//         font-size: 26px;
+//         line-height: 30px;
+//       }
+//       .img_list {
+//         .right_list {
+//           padding: 31px 20px;
+//         }
+//       }
+//     }
+//     .education {
+//       .image {
+//         .card {
+//           .bg-color {
+//             h2 {
+//               font-size: 17px;
+//               line-height: 25px;
+//             }
+//           }
+//         }
+//       }
+//       .programs {
+//         h2 {
+//           font-size: 17px;
+//           line-height: 25px;
+//         }
+//       }
+//     }
+//   }
+// }
+// @media screen and (max-width: 425px) {
+//   .birla {
+//     .about_us {
+//       .right {
+//         img {
+//           margin-top: 50px;
+//         }
+//         .icon {
+//           bottom: 0;
+//         }
+//       }
+//     }
+//   }
+// }
+// @media screen and (max-width: 375px) {
+//   .birla {
+//     .banner {
+//       #custCarousel {
+//         .carousel-indicators {
+//           margin-right: 14%;
+//         }
+//       }
+//     }
+//     .about_us {
+//       padding: 100px 0;
+
+//       .right {
+//         img {
+//           margin-top: 40px;
+//         }
+//         .icon {
+//           bottom: 0;
+//         }
+//       }
+//     }
+//     .education {
+//       .programs {
+//         display: block;
+//         h2 {
+//           font-size: 26px;
+//           line-height: 30px;
+//         }
+//       }
+//     }
+//     .footer {
+//       padding: 50px 40px 40px;
+//     }
+//   }
+// }
+
+// @media screen and (max-height: 450px) {
+//   .sidenav {
+//     padding-top: 15px;
+//   }
+//   .sidenav a {
+//     font-size: 18px;
+//   }
+// }
