@@ -264,6 +264,9 @@ h2 {
   transition: 0.5s;
   filter: brightness(0) invert(1);
 }
+.blr .testimonial img {
+  width: 100px;
+}
 .blr .iq-features {
   padding: 100px 0px;
   margin: 200px 0 0;
