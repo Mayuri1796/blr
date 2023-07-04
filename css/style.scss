@@ -1,3 +1,60 @@
+@font-face {
+  font-family: Gotham-Bold;
+  src: url(../fonts/Gotham-Bold.eot);
+  src: url(../fonts/Gotham-Bold.woff2) format("woff2"),
+    url(../fonts/Gotham-Bold.woff) format("woff"),
+    url(../fonts/Gotham-Bold.ttf) format("truetype"),
+    url(../fonts/Gotham-Bold.svg#Gotham-Bold) format("svg"),
+    url(../fonts/Gotham-Bold.eot?#iefix) format("embedded-opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gotham-Medium;
+  src: url(../fonts/GothamMedium.eot);
+  src: url(../fonts/GothamMedium.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/GothamMedium.woff2) format("woff2"),
+    url(../fonts/GothamMedium.woff) format("woff"),
+    url(../fonts/GothamMedium.ttf) format("truetype"),
+    url(../fonts/GothamMedium.svg#GothamMedium) format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gotham-Light;
+  src: url(../fonts/Gotham-Light.eot);
+  src: url(../fonts/Gotham-Light.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/Gotham-Light.woff2) format("woff2"),
+    url(../fonts/Gotham-Light.woff) format("woff"),
+    url(../fonts/Gotham-Light.ttf) format("truetype"),
+    url(../fonts/Gotham-Light.svg#Gotham-Light) format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gotham-Ultra;
+  src: url(../fonts/Gotham-Ultra.eot);
+  src: url(../fonts/Gotham-Ultra.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/Gotham-Ultra.svg#Gotham-Ultra) format("svg"),
+    url(../fonts/Gotham-Ultra.ttf) format("truetype"),
+    url(../fonts/Gotham-Ultra.woff) format("woff"),
+    url(../fonts/Gotham-Ultra.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gobold_Lowplus;
+  src: url(../fonts/Gobold_Lowplus.eot);
+  src: url(../fonts/Gobold_Lowplus.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/Gobold_Lowplus.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
 .read {
   background-color: #f8a942;
   padding: 16px 35px;
@@ -12,6 +69,16 @@ h2 {
   line-height: 58px;
   font-weight: 500;
   padding-bottom: 32px;
+  font-family: Gotham-Bold;
+}
+p,
+h3,
+h6,
+h4,
+span,
+a,
+h5 {
+  font-family: Gotham-Light;
 }
 .blr {
   .navbar {
@@ -24,6 +91,9 @@ h2 {
       font-size: 16px;
       font-weight: 600;
       color: #000;
+    }
+    .navbar-collapse {
+      justify-content: center !important;
     }
     .navbar-nav {
       gap: 50px;
@@ -72,7 +142,7 @@ h2 {
     padding: 80px 0;
     .left {
       h6 {
-        color: #f07b00;
+        color: #044792;
         font-weight: 400;
         font-size: 18px;
         line-height: 20px;
@@ -80,11 +150,15 @@ h2 {
         text-transform: uppercase;
         padding-bottom: 12px;
       }
-
+      h2 {
+        font-size: 23px !important;
+        padding-bottom: 5px;
+        color: #044792;
+      }
       p {
         font-size: 16px;
         font-weight: 400;
-        line-height: 31.5px;
+        line-height: 28px;
         padding-bottom: 4px;
       }
       #counter-stats {
@@ -180,7 +254,6 @@ h2 {
               }
               p {
                 margin-bottom: 10px;
-                font-family: Outfit, sans-serif;
                 color: #0e0f18;
                 font-size: 20px;
                 line-height: 150%;
@@ -332,11 +405,38 @@ h2 {
         margin: auto;
       }
     }
+    .new-card {
+      margin: -130px 10px 10px 10px;
+    }
     .client {
       border-radius: 30px 0 30px 0;
-      padding: 29px;
+      padding: 99px;
       text-align: center;
     }
+  }
+  #wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+  .block {
+    display: inline-block;
+    width: 200px;
+    // height: 150px;
+    margin: 10px;
+    // background-color: red;
+  }
+  // .block:last-child {
+  //   margin-left: 205px;
+  // }
+  .bigger {
+    height: 110px;
+    margin-bottom: -55px; /* added */
+  }
+  .larger {
+    height: 110px;
+    width: 190px;
+    // margin-left: 105px;
+    margin-bottom: -55px; /* added */
   }
   .iq-features {
     padding: 100px 0px;

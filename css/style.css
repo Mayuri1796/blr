@@ -1,3 +1,38 @@
+@font-face {
+  font-family: Gotham-Bold;
+  src: url(../fonts/Gotham-Bold.eot);
+  src: url(../fonts/Gotham-Bold.woff2) format("woff2"), url(../fonts/Gotham-Bold.woff) format("woff"), url(../fonts/Gotham-Bold.ttf) format("truetype"), url(../fonts/Gotham-Bold.svg#Gotham-Bold) format("svg"), url(../fonts/Gotham-Bold.eot?#iefix) format("embedded-opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Gotham-Medium;
+  src: url(../fonts/GothamMedium.eot);
+  src: url(../fonts/GothamMedium.eot?#iefix) format("embedded-opentype"), url(../fonts/GothamMedium.woff2) format("woff2"), url(../fonts/GothamMedium.woff) format("woff"), url(../fonts/GothamMedium.ttf) format("truetype"), url(../fonts/GothamMedium.svg#GothamMedium) format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Gotham-Light;
+  src: url(../fonts/Gotham-Light.eot);
+  src: url(../fonts/Gotham-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/Gotham-Light.woff2) format("woff2"), url(../fonts/Gotham-Light.woff) format("woff"), url(../fonts/Gotham-Light.ttf) format("truetype"), url(../fonts/Gotham-Light.svg#Gotham-Light) format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Gotham-Ultra;
+  src: url(../fonts/Gotham-Ultra.eot);
+  src: url(../fonts/Gotham-Ultra.eot?#iefix) format("embedded-opentype"), url(../fonts/Gotham-Ultra.svg#Gotham-Ultra) format("svg"), url(../fonts/Gotham-Ultra.ttf) format("truetype"), url(../fonts/Gotham-Ultra.woff) format("woff"), url(../fonts/Gotham-Ultra.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Gobold_Lowplus;
+  src: url(../fonts/Gobold_Lowplus.eot);
+  src: url(../fonts/Gobold_Lowplus.eot?#iefix) format("embedded-opentype"), url(../fonts/Gobold_Lowplus.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
 .read {
   background-color: #f8a942;
   padding: 16px 35px;
@@ -13,6 +48,17 @@ h2 {
   line-height: 58px;
   font-weight: 500;
   padding-bottom: 32px;
+  font-family: Gotham-Bold;
+}
+
+p,
+h3,
+h6,
+h4,
+span,
+a,
+h5 {
+  font-family: Gotham-Light;
 }
 
 .blr .navbar {
@@ -26,6 +72,9 @@ h2 {
   font-size: 16px;
   font-weight: 600;
   color: #000;
+}
+.blr .navbar .navbar-collapse {
+  justify-content: center !important;
 }
 .blr .navbar .navbar-nav {
   gap: 50px;
@@ -72,7 +121,7 @@ h2 {
   padding: 80px 0;
 }
 .blr .about_us .left h6 {
-  color: #f07b00;
+  color: #044792;
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
@@ -80,10 +129,15 @@ h2 {
   text-transform: uppercase;
   padding-bottom: 12px;
 }
+.blr .about_us .left h2 {
+  font-size: 23px !important;
+  padding-bottom: 5px;
+  color: #044792;
+}
 .blr .about_us .left p {
   font-size: 16px;
   font-weight: 400;
-  line-height: 31.5px;
+  line-height: 28px;
   padding-bottom: 4px;
 }
 .blr .about_us .left #counter-stats .glance-txt {
@@ -184,7 +238,6 @@ h2 {
 .blr .why_choose .technology_left .grid-wrap-two .choose-single-item .choose-item-content p, .blr .why_choose .technology_right .grid-wrap-one .choose-single-item .choose-item-content p,
 .blr .why_choose .technology_right .grid-wrap-two .choose-single-item .choose-item-content p {
   margin-bottom: 10px;
-  font-family: Outfit, sans-serif;
   color: #0e0f18;
   font-size: 20px;
   line-height: 150%;
@@ -311,10 +364,31 @@ h2 {
   display: flex;
   margin: auto;
 }
+.blr .testimonial .new-card {
+  margin: -130px 10px 10px 10px;
+}
 .blr .testimonial .client {
   border-radius: 30px 0 30px 0;
-  padding: 29px;
+  padding: 99px;
   text-align: center;
+}
+.blr #wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.blr .block {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+}
+.blr .bigger {
+  height: 110px;
+  margin-bottom: -55px; /* added */
+}
+.blr .larger {
+  height: 110px;
+  width: 190px;
+  margin-bottom: -55px; /* added */
 }
 .blr .iq-features {
   padding: 100px 0px;
