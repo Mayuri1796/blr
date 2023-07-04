@@ -33,6 +33,10 @@
   font-weight: 400;
   font-style: normal;
 }
+.container {
+  max-width: 1400px !important;
+}
+
 .read {
   background-color: #f8a942;
   padding: 16px 35px;
@@ -59,6 +63,38 @@ span,
 a,
 h5 {
   font-family: Gotham-Light;
+}
+
+.btn-wrapper {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  align-items: center;
+}
+.btn-wrapper .primary-button.reverse-shadow {
+  box-shadow: -7px 7px 0 0 #044792;
+}
+
+.primary-button {
+  position: relative;
+  z-index: 6;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 16px 36px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  background-color: #fff;
+  box-shadow: 7px 7px 0 0 #000;
+  transition: all 200ms ease;
+  text-decoration: none;
+  color: #000;
+}
+
+.button-content {
+  display: flex;
 }
 
 .blr .navbar {
@@ -135,7 +171,7 @@ h5 {
   color: #044792;
 }
 .blr .about_us .left p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 28px;
   padding-bottom: 4px;
@@ -160,8 +196,11 @@ h5 {
   text-transform: uppercase;
   margin-left: 5px;
 }
+.blr .about_us .right img {
+  width: 100%;
+}
 .blr .why_choose {
-  padding: 240px 0 120px;
+  padding: 120px 0 60px;
 }
 .blr .why_choose h2 {
   font-size: 60px !important;
@@ -169,35 +208,6 @@ h5 {
 }
 .blr .why_choose p {
   margin-bottom: 40px;
-}
-.blr .why_choose .btn-wrapper {
-  position: relative;
-  z-index: 0;
-  display: inline-block;
-  align-items: center;
-}
-.blr .why_choose .btn-wrapper .primary-button.reverse-shadow {
-  box-shadow: -7px 7px 0 0 #000;
-}
-.blr .why_choose .primary-button {
-  position: relative;
-  z-index: 6;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  padding: 16px 36px;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #000;
-  background-color: #fff;
-  box-shadow: 7px 7px 0 0 #000;
-  transition: all 200ms ease;
-  text-decoration: none;
-  color: #000;
-}
-.blr .why_choose .button-content {
-  display: flex;
 }
 .blr .why_choose .technology {
   display: grid;
@@ -388,7 +398,8 @@ h5 {
 .blr .larger {
   height: 110px;
   width: 190px;
-  margin-bottom: -55px; /* added */
+  margin-left: 105px;
+  margin-bottom: -55px;
 }
 .blr .iq-features {
   padding: 100px 0px;
@@ -537,7 +548,7 @@ h5 {
   padding-left: 50px;
 }
 .blr .blog {
-  padding: 90px 0 350px;
+  padding: 0px 0 350px;
 }
 .blr .blog .programs {
   display: flex;
@@ -593,7 +604,7 @@ h5 {
   display: flex;
 }
 .blr .footer .single-cta i {
-  color: #ff5e14;
+  color: #fcaa40;
   font-size: 30px;
   margin-top: 8px;
 }
@@ -607,7 +618,7 @@ h5 {
   margin-bottom: 7px;
 }
 .blr .footer .cta-text span {
-  color: #757575;
+  color: #ffffff;
   font-size: 15px;
 }
 .blr .footer .footer-content {
@@ -723,7 +734,7 @@ h5 {
 .blr .footer .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: #fff;
 }
 .blr .footer .copyright-text p a {
   color: #ff5e14;
