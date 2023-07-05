@@ -153,6 +153,7 @@ h5 {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  color: #fff;
 }
 .blr .openToggle {
   font-size: 30px;
@@ -296,22 +297,6 @@ h5 {
   justify-content: center;
   align-items: center;
 }
-.blr .circle1 .circle2 {
-  height: 300px;
-  width: 300px;
-  position: absolute;
-  border-radius: 5000px;
-}
-.blr .circle1 .circle2 .box1 {
-  text-align: center;
-}
-.blr .circle1 .circle2 h6 {
-  background: #f8a942;
-  padding: 10px;
-  border-radius: 20px 20px;
-  margin-top: 35px;
-  color: #fff;
-}
 .blr .esg {
   display: flex;
   justify-content: center;
@@ -345,8 +330,7 @@ h5 {
   transform-origin: 340px;
   z-index: 100;
   overflow: hidden;
-  transition: 0.5 s;
-  transform: rotate(calc(45deg * var(--i)));
+  transform: rotate(calc(40deg * var(--i)));
 }
 .blr .esg .container .icon .imgBx.active img {
   filter: grayscale(0);
@@ -361,9 +345,12 @@ h5 {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
-  transform: rotate(calc(-45deg * var(--i)));
+  transform: rotate(calc(-40deg * var(--i)));
   transition: 0.5s;
   filter: brightness(0) invert(1);
+}
+.blr .esg .container .icon .imgBx:hover {
+  background-color: #8ab689;
 }
 .blr .esg .container .circle2 .grid-container {
   display: grid;
@@ -400,17 +387,21 @@ h5 {
   display: flex;
   margin: auto;
 }
-.blr .testimonial .new-card {
-  margin: -130px 10px 10px 10px;
-}
-.blr .testimonial .client {
-  border-radius: 30px 0 30px 0;
-  padding: 99px;
-  text-align: center;
-}
 .blr #wrapper {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
+}
+.blr #wrapper .nav-tabs .nav-link {
+  background: transparent;
+  background: white;
+  box-shadow: 0 0 10px #000;
+  margin: 10px 10px;
+}
+.blr #wrapper li .tab-content .tab-pane {
+  text-align: center;
+}
+.blr #wrapper li .tab-content .tab-pane .content {
+  padding: 13px 10px;
 }
 .blr .block {
   display: inline-block;
@@ -418,52 +409,12 @@ h5 {
   margin: 10px;
 }
 .blr .larger {
-  width: 413px;
+  width: 440px;
   grid-area: 3/3/span 2/span 2;
   background: #044792;
-  margin-left: 19px;
-}
-.blr .blog {
-  padding: 0px 0 350px;
-}
-.blr .blog .programs {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 60px;
-}
-.blr .blog .image .item {
-  border-radius: 4px;
-  height: 100px;
-  width: 100%;
-}
-.blr .blog .image .item .card {
-  border-radius: 8px;
-  box-shadow: 0 33px 36px rgba(0, 0, 0, 0.07), 0 12.0455px 13.1406px rgba(0, 0, 0, 0.048), 0 5.84789px 6.37951px rgba(0, 0, 0, 0.039), 0 2.86674px 3.12736px rgba(0, 0, 0, 0.031), 0 1.13351px 1.23656px rgba(0, 0, 0, 0.022);
-}
-.blr .blog .image .item .card .card-img-top {
-  width: 100%;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
-}
-.blr .blog .image .item .card .card-body {
-  text-align: left;
-  padding: 17px;
-}
-.blr .blog .image .item .card .card-body .card-date {
-  font-size: 14px;
-  color: #044792;
-  font-weight: 500;
-}
-.blr .blog .image .item .card .card-body .card-title {
-  color: black;
-  font-size: 18px;
-  margin-top: 10px;
-}
-.blr .blog .image .item .card .card-body .card-link {
-  font-size: 16px;
-  font-weight: 500;
-  color: #044792;
+  margin-left: 11px;
+  margin-right: 11px;
+  color: #fff;
 }
 .blr .footer ul {
   margin: 0px;
@@ -482,7 +433,6 @@ h5 {
 .blr .footer .single-cta i {
   color: #fcaa40;
   font-size: 30px;
-  margin-top: 8px;
 }
 .blr .footer .cta-text {
   padding-left: 15px;
